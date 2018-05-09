@@ -1,0 +1,30 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+	"static"
+  ],
+  "compilerOptions": {
+    // 启用 vue-class-component 及 vuex-class 需要开启此选项
+    "experimentalDecorators": true,
+
+    // 启用 vuex-class 需要开启此选项
+    "strictFunctionTypes": true,
+
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.promise"
+    ],
+    "sourceMap": true,
+    "pretty": true
+  }
+}
