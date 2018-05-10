@@ -32,8 +32,6 @@ export default class Painter {
    * 3）原来没有，现在有的，添加。
    */
   drawMarkers (options: Types.MarkerOptions[]) {
-    console.log('map draw markers')
-    
     let mkoptions = options ? options : [] 
     let curMarkers = this.gmap.getOverlays(Types.TYPE_MARKER)
     
