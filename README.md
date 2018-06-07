@@ -15,7 +15,8 @@ npm install ginkgo-map
 
 ## Demo
 
-https://github.com/sharplog/ginkgo-map-demo
+[demo代码](https://github.com/sharplog/ginkgo-map-demo)
+[在线演示](http://nsapp.applinzi.com/gmapdemo/)
 
 ## 使用
 #### index.html中引入API
